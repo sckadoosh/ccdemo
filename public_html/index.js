@@ -1,6 +1,6 @@
 let express = require( 'express');
 let app = express();
-let port = 8080;
+let port = process.env.path || 8080;
 var path = require('path');
 app.use(express.static('public_html'));
 
