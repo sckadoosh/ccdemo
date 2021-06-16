@@ -1,0 +1,23 @@
+{
+  "name": "website-rick-and-morty-master",
+  "version": "1.0.0",
+  "description": "A simple website for a school course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sckadoosh/ccdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sckadoosh/ccdemo/issues"
+  },
+  "homepage": "https://github.com/sckadoosh/ccdemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
